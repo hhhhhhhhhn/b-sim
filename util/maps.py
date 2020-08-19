@@ -1,9 +1,7 @@
 from typing import Tuple, List, Dict
 import util.generate as generate
 import random
-
-NAME = 0
-SIZE = 1
+from .constants import *
 
 def create_city() -> list:
 	"""Creates city in [name, size] format."""
